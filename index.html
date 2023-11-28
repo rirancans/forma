@@ -7,15 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <h1>Login</h1>
-        <label>Email*</label>
-        <input type="text" >
-        <label>Password*</label>
-        <input type="text">
-        <input type="checkbox">
-        <label>Remember me</label>
+    <form class="forma">
+        <h1 class="virsraksts">Login</h1>
+
+        <div>
+            <label for="email">Email*</label>
+            <input type="text" id="email">  
+        </div>
+
+        <div>   
+            <label for="password">Password*</label>
+            <input type="text" id="password">
+        </div>
+        
+        <div>
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+        </div>
+        
         <button>Login</button>
+
+        <div>
+            <p>Don't have an account?</p>
+            <a href="#">Sign up here</a> 
+        </div>
     </form>
 </body>
 </html>
+
